@@ -1,13 +1,15 @@
 import React from "react";
 
-import {Image, View, Text, StyleSheet } from "react-native";
+import {Image, View, Text, StyleSheet, TouchableOpacity, Alert } from "react-native";
 
 export default function Category(props) {
   return (
+    <TouchableOpacity onPress={() => console.log(props.title)}>
     <View style={styles.container}>
       <Text style={styles.text}>{props.title}</Text>
       <Image style={styles.image} source={require("../assets/icon.png")} />
     </View>
+    </TouchableOpacity>
   );
 }
 

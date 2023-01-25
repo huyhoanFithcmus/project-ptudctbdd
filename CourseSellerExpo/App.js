@@ -17,10 +17,10 @@ export default function App() {
   return (
     <View style={styles.container}>
       <ScrollView>
-        {categories.map((category) => (
+        {/* {categories.map((category) => (
           <Category key={category.id} title={category.name} />
-        ))}
-        {/* <FlatList data={categories} renderItem={({ item }) => <Category title={item.name} />} keyExtractor={(item) => item.id.toString()} /> */}
+        ))} */}
+        <FlatList data={categories} renderItem={({ item }) => <Category title={item.name} />} keyExtractor={(item) => '$(item.id)'} />
       </ScrollView>
     </View>
     
