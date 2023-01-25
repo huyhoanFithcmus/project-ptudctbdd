@@ -15,8 +15,6 @@ export default function Category(props) {
     { id: 7, name: "Python" },
   ];
 
-
-  
   return (
     <View style={styles.container}>
       <ScrollView>
@@ -25,7 +23,9 @@ export default function Category(props) {
         ))} */}
         <FlatList
           data={categories}
+          numColumns={2}
           renderItem={({ item }) => (
+            <View style={{ flex: 1, flexDirection: 'column', margin: 1 }}>
             <Category_list
               category={item}
               onPress={() => props.navigation.navigate('Category_details' , {
@@ -33,6 +33,7 @@ export default function Category(props) {
                 categoryId : item.id}) 
               }
             />
+            </View>
           )}
           keyExtractor={(item) => item.id.toString()}
         />
@@ -44,10 +45,9 @@ export default function Category(props) {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex: 2,
     backgroundColor: '#fff',
     alignItems: 'stretch',
-    justifyContent: 'center',
     padding: 16,
   },
 });

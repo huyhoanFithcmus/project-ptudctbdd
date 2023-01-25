@@ -1,0 +1,88 @@
+{
+    "category": [
+        {
+            "name": "Spike Prime",
+            "id": "1",
+            "product": [
+                {
+                    "name": "Spike Prime Starter",
+                    "id": "1"
+                },
+                {
+                    "name":"Spike Prime Advanced",
+                    "id": "2"
+                }
+            ]
+        },
+        {
+            "name": "Mindstorms",
+            "id": "2",
+            "product": [
+                {
+                    "name": "Mindstorms Starter",
+                    "id": "1"
+                },
+                {
+                    "name":"Mindstorms Advanced",
+                    "id": "2"
+                }
+            ]
+        },
+        {
+            "name": "Python",
+            "id": "3",
+            "product": [
+                {
+                    "name": "Python Starter",
+                    "id": "1"
+                },
+                {
+                    "name":"Python Advanced",
+                    "id": "2"
+                }
+            ]
+        },
+        {
+            "name": "Arduino",
+            "id": "4",
+            "product": [
+                {
+                    "name": "Arduino Starter",
+                    "id": "1"
+                },
+                {
+                    "name":"Arduino Advanced",
+                    "id": "2"
+                }
+            ]
+        },
+        {
+            "name": "Scratch",
+            "id": "5",
+            "product": [
+                {
+                    "name": "Scratch Starter",
+                    "id": "1"
+                },
+                {
+                    "name":"Scratch Advanced",
+                    "id": "2"
+                }
+            ]
+        },
+        {
+            "name": "WeDo",
+            "id": "6",
+            "product": [
+                {
+                    "name": "WeDo Starter",
+                    "id": "1"
+                },
+                {
+                    "name":"WeDo Advanced",
+                    "id": "2"
+                }
+            ]
+        }
+    ]
+}
