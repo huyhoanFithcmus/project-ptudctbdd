@@ -1,8 +1,8 @@
 {
     "category": [
         {
-            "name": "Spike Prime",
             "id": "1",
+            "name": "Spike Prime",
             "product": [
                 {
                     "name": "Spike Prime Starter",
@@ -15,8 +15,8 @@
             ]
         },
         {
-            "name": "Mindstorms",
             "id": "2",
+            "name": "Mindstorms",
             "product": [
                 {
                     "name": "Mindstorms Starter",
@@ -29,8 +29,8 @@
             ]
         },
         {
-            "name": "Python",
             "id": "3",
+            "name": "Python",
             "product": [
                 {
                     "name": "Python Starter",
@@ -43,8 +43,8 @@
             ]
         },
         {
-            "name": "Arduino",
             "id": "4",
+            "name": "Arduino",
             "product": [
                 {
                     "name": "Arduino Starter",
@@ -57,8 +57,8 @@
             ]
         },
         {
-            "name": "Scratch",
             "id": "5",
+            "name": "Scratch",
             "product": [
                 {
                     "name": "Scratch Starter",
@@ -71,8 +71,8 @@
             ]
         },
         {
-            "name": "WeDo",
             "id": "6",
+            "name": "WeDo",
             "product": [
                 {
                     "name": "WeDo Starter",
