@@ -3,6 +3,8 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
+import Home from "./Screen/Home";
+
 import Category from "./Screen/Category";
 import Category_details from "./Screen/Category_details";
 
@@ -16,7 +18,7 @@ const Tab = createBottomTabNavigator();
 
 // how to use the Stack Navigator and the Tab Navigator together
 
-function Home () {
+function Category_tb () {
   return (
     <Stack.Navigator>
       <Stack.Screen name="Category" component={Category} />
@@ -29,6 +31,7 @@ export default function AppNavigator() {
   return (
     <Tab.Navigator>
       <Tab.Screen name="Home" component={Home} />
+      <Tab.Screen name="Category" component={Category_tb} />
       <Tab.Screen name="Cart" component={Cart} />
       <Tab.Screen name="Settings" component={Settings} />
       <Tab.Screen name="Order" component={Order} />
